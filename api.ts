@@ -1,11 +1,11 @@
-import { ApolloClient, InMemoryCache, gql } from '@apollo/client';
+import { ApolloClient, gql, InMemoryCache } from "@apollo/client";
 
-const API_URL = 'https://api.lens.dev';
+const API_URL = "https://api.lens.dev";
 
 /* create the API client */
 export const client = new ApolloClient({
-    uri: API_URL,
-    cache: new InMemoryCache(),
+  uri: API_URL,
+  cache: new InMemoryCache(),
 });
 
 /* define a GraphQL query  */
@@ -48,7 +48,7 @@ query Profile($handle: Handle!) {
     handle
   }
 }
-`
+`;
 
 export const getPublications = gql`
   query Publications($id: ProfileId!, $limit: LimitScalar) {
@@ -73,5 +73,28 @@ export const getPublications = gql`
   }
   fragment MetadataOutputFields on MetadataOutput {
     content
+  }
+`;
+
+export const challenge = gql`
+  query Challenge($address: EthereumAddress!) {
+    challenge(request: { address: $address }) {
+      text
+    }
+  }
+`
+
+export const authenticate = gql`
+  mutation Authenticate(
+    $address: EthereumAddress!
+    $signature: Signature!
+  ) {
+    authenticate(request: {
+      address: $address,
+      signature: $signature
+    }) {
+      accessToken
+      refreshToken
+    }
   }
 `

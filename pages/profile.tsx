@@ -1,4 +1,5 @@
 import Link from "next/link";
+import toast from "react-hot-toast";
 import { useEffect, useState } from "react";
 
 import { client, exploreProfiles } from "../api";
@@ -41,6 +42,7 @@ export default function Profile() {
       setProfiles(profileData);
     } catch (err) {
       logger.error(err);
+      toast.error(JSON.stringify(err));
     }
   }
   return (
