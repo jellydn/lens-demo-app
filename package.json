@@ -34,7 +34,7 @@
     "postcss": "8.4.19"
   },
   "dependencies": {
-    "@apollo/client": "^3.7.1",
+    "@apollo/client": "3.7.1",
     "@headlessui/react": "1.7.4",
     "@heroicons/react": "2.0.13",
     "@hookform/devtools": "4.2.3",
