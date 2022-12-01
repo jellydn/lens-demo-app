@@ -1,4 +1,4 @@
-# Welcome to next-app-starter 👋
+# Welcome to lens-demo-app 👋
 
 ![Version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000)
 [![Twitter: jellydn](https://img.shields.io/twitter/follow/jellydn.svg?style=social)](https://twitter.com/jellydn)
@@ -7,9 +7,9 @@
 
 [![ITMan - NextJs Course!](https://i.ytimg.com/vi/CwjySicuyGQ/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB1EtLZ4uPu5V_IEKBZ4jQQsDlIzg")](https://www.youtube-nocookie.com/embed/videoseries?list=PLOdXIcVPTyB_2IiS36upNkEw2fLhyb5D6)
 
-## 🏠 [Homepage](https://github.com/jellydn/next-app-starter)
+## 🏠 [Homepage](https://github.com/jellydn/lens-demo-app)
 
-### ✨ [Demo](https://next-app-starter.vercel.app)
+### ✨ [Demo](https://lens-demo-app.vercel.app)
 
 ![screenshot](./screenshot.png)
 
@@ -18,13 +18,10 @@
 -   [NextJS: the React Framework for Production](https://nextjs.org/docs)
 -   [Tailwindcss: rapidly build modern websites without ever leaving your HTML](https://tailwindcss.com/)
 -   [Jotai: primitive and flexible state management for React.](https://docs.pmnd.rs/jotai/introduction)
--   [Prisma: next-generation ORM for Node.js and TypeScrip](https://www.prisma.io/)
--   [NextAuth.js: Authentication for Next.js](https://next-auth.js.org/v3/getting-started/introduction)
 -   [next-validations: NextJS API Validations, support Yup, Fastest-Validator, Joi, and more](https://next-validations.productsway.com/)
 -   [Storybook: build bulletproof UI components faster](https://storybook.js.org)
 -   [React-hook-form: performance, flexible and extensible forms with easy-to-use validation](https://www.react-hook-form.com/)
 -   [react-testing: simple and complete testing utilities that encourage good testing practices](https://testing-library.com/)
--   [React-query: performant and powerful data synchronization for React](https://react-query.tanstack.com/)
 -   And other standard tools as [Eslint](https://eslint.org/), [Prettier](https://prettier.io/), [Lint-staged](https://github.com/okonet/lint-staged)
 
 ## Install
@@ -61,7 +58,7 @@ yarn storybook
 
 ## Stargazers 🌟
 
-[![Stargazers repo roster for jellydn/next-app-starter](https://reporoster.com/stars/jellydn/next-app-starter)](https://github.com/jellydn/next-app-starter/stargazers)
+[![Stargazers repo roster for jellydn/lens-demo-app](https://reporoster.com/stars/jellydn/lens-demo-app)](https://github.com/jellydn/lens-demo-app/stargazers)
 
 ## Show your support
 

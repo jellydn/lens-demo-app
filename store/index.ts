@@ -1,5 +1,6 @@
 import counterAtom from './counter';
 
-export default {
+const store = {
     counterAtom,
 };
+export default store;
