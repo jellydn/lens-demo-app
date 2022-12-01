@@ -5,13 +5,13 @@
 
 > Another awesome starter for your app
 
-[![ITMan - NextJs Course!](https://i.ytimg.com/vi/CwjySicuyGQ/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB1EtLZ4uPu5V_IEKBZ4jQQsDlIzg")](https://www.youtube-nocookie.com/embed/videoseries?list=PLOdXIcVPTyB_2IiS36upNkEw2fLhyb5D6)
-
 ## 🏠 [Homepage](https://github.com/jellydn/lens-demo-app)
 
-### ✨ [Demo](https://lens-demo-app.vercel.app)
+### ✨ [Demo](https://lens-app.productsway.com)
 
-![screenshot](./screenshot.png)
+![https://gyazo.com/720876fc9cc7e69126016c1009ab29a8.gif](https://gyazo.com/720876fc9cc7e69126016c1009ab29a8.gif)
+
+![https://gyazo.com/4964e0d8981f98ebed063a31ae5debbf.gif](https://gyazo.com/4964e0d8981f98ebed063a31ae5debbf.gif)
 
 ## Built with
 
@@ -49,6 +49,13 @@ yarn test
 ```sh
 yarn storybook
 ```
+
+## Useful references
+
+-   [Lens Protocol - Authentication Quickstart](https://docs.lens.xyz/docs/authentication-quickstart)
+-   [Lens Protocol - Developer Quickstart](https://docs.lens.xyz/docs/developer-quickstart)
+-   [NextAuth.js - Sign-In with Ethereum](https://docs.login.xyz/integrations/nextauth.js)
+-   [Authentication — RainbowKit](https://www.rainbowkit.com/docs/authentication)
 
 ## Author
 
