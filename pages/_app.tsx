@@ -4,7 +4,8 @@ import '@rainbow-me/rainbowkit/styles.css';
 import { Atom, Provider } from 'jotai';
 import { SessionProvider } from 'next-auth/react';
 import type { AppProps } from 'next/app';
-import { WagmiConfig, chain, configureChains, createClient } from 'wagmi';
+import { WagmiConfig, configureChains, createClient } from 'wagmi';
+import { mainnet, polygon, polygonMumbai } from 'wagmi/chains';
 import { publicProvider } from 'wagmi/providers/public';
 
 import store from '../store';
@@ -23,7 +24,7 @@ if (process.env.NEXT_PUBLIC_API_MOCKING === 'yes') {
 }
 
 const { chains, provider } = configureChains(
-    [chain.mainnet, chain.polygon],
+    [mainnet, polygon, polygonMumbai],
     [publicProvider()],
 );
 
