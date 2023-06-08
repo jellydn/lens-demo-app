@@ -62,7 +62,7 @@
     "yup": "1.2.0"
   },
   "devDependencies": {
-    "@babel/core": "7.22.1",
+    "@babel/core": "7.22.5",
     "@storybook/addon-essentials": "7.0.20",
     "@storybook/addon-interactions": "7.0.20",
     "@storybook/addon-links": "7.0.20",
@@ -78,7 +78,7 @@
     "@vitejs/plugin-react": "3.1.0",
     "@vitest/ui": "0.32.0",
     "autoprefixer": "10.4.14",
-    "@babel/eslint-parser": "7.21.8",
+    "@babel/eslint-parser": "7.22.5",
     "babel-jest": "29.5.0",
     "babel-loader": "9.1.2",
     "c8": "7.14.0",
