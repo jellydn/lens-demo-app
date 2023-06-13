@@ -58,7 +58,7 @@
     "react-hot-toast": "2.4.1",
     "siwe": "2.1.4",
     "use-local-storage-state": "18.3.3",
-    "wagmi": "0.12.13",
+    "wagmi": "0.12.15",
     "yup": "1.2.0"
   },
   "devDependencies": {
