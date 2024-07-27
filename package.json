@@ -94,7 +94,7 @@
     "lint-staged": "13.2.2",
     "msw": "1.2.2",
     "postcss": "8.4.24",
-    "prettier": "2.8.8",
+    "prettier": "3.3.3",
     "rustywind": "0.16.0",
     "sort-package-json": "2.4.1",
     "storybook": "7.0.20",
