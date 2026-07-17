@@ -80,7 +80,7 @@
     "autoprefixer": "10.4.14",
     "@babel/eslint-parser": "7.22.5",
     "babel-jest": "29.5.0",
-    "babel-loader": "9.1.2",
+    "babel-loader": "10.1.1",
     "c8": "7.14.0",
     "concurrently": "8.2.0",
     "eslint": "8.42.0",
